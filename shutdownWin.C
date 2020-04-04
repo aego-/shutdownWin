@@ -13,7 +13,7 @@ min = 0;
 
 system("title ShutdownWin by aego");
 printf("\nEste es un programa para apagar la computadora con opcion de agregar un temporizador entre otras cosas \n\n");
-system("color f");
+system("color f");                                  //color de fuente blanco
 system("pause");
 inicioOpciones:
 system("cls");
