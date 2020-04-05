@@ -20,7 +20,7 @@ system("cls");
 printf("\n  (1) Apagar pc inmediatamente (apagado normal)");
 printf("\n  (2) Apagar pc inmediatamente (apagado hibrido)");
 printf("\n  (3) Reiniciar pc");
-printf("\n  (4) Suspender pc");
+printf("\n  (4) Cerrar sesion");
 printf("\n  (5) Hibernar pc");
 printf("\n  (6) Programar apagado de pc (apagado normal)");
 printf("\n  (7) Programar apagado de pc (apagado hibrido)");
@@ -34,7 +34,7 @@ switch(opt){
     case 1: system("shutdown /p");break;              //apaga inmediatamente normal
     case 2: system("shutdown /s /hybrid /t 0");break; //apaga inmediatamente modo hibrido
     case 3: system("shutdown /r");break;              //reinicia
-    case 4: system("shutdown /l");break;              //suspende
+    case 4: system("shutdown /l");break;              //cierra sesion junto con programas inmediatamente
     case 5: system("shutdown /h");break;              //hiberna
     case 6: system("cls");                            //programa apagado normal
             printf("\n Ingresa las horas: ");
